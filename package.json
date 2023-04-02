@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "theanh.dev",
-  "author": "AndrewPhanUIT",
+  "author": "PhanTheAnhAndrew",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby clean && gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,9 +16,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^5.8.1",
     "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-sass": "^6.8.0",
     "gatsby-plugin-sharp": "^5.8.1",
     "gatsby-plugin-styled-components": "^6.8.0",
     "gatsby-source-filesystem": "^5.8.0",
@@ -26,6 +29,7 @@
     "gatsby-transformer-sharp": "^5.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.60.0",
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
